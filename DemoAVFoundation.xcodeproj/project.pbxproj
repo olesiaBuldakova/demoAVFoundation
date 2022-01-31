@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CF1C1E2526F375B1001B2D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E2426F375B1001B2D1E /* AppDelegate.swift */; };
 		CF1C1E2726F375B1001B2D1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E2626F375B1001B2D1E /* SceneDelegate.swift */; };
-		CF1C1E2926F375B1001B2D1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E2826F375B1001B2D1E /* ViewController.swift */; };
 		CF1C1E2C26F375B1001B2D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1C1E2A26F375B1001B2D1E /* Main.storyboard */; };
 		CF1C1E2E26F375BB001B2D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C1E2D26F375BB001B2D1E /* Assets.xcassets */; };
 		CF1C1E3126F375BB001B2D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1C1E2F26F375BB001B2D1E /* LaunchScreen.storyboard */; };
+		CF1C1E4926F377A8001B2D1E /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E4426F377A7001B2D1E /* CustomViewController.swift */; };
+		CF1C1E5B26F379AF001B2D1E /* Composing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E5A26F379AF001B2D1E /* Composing.swift */; };
+		CF1C1E5E26F379B7001B2D1E /* AffineTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E5D26F379B7001B2D1E /* AffineTransformations.swift */; };
+		CF1C1E6026F379BC001B2D1E /* ImageToVideoTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E5F26F379BC001B2D1E /* ImageToVideoTransformer.swift */; };
+		CF1C1E6326F379C0001B2D1E /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E6226F379C0001B2D1E /* MediaItem.swift */; };
+		CF1C1E6626F379C4001B2D1E /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E6526F379C4001B2D1E /* Timeline.swift */; };
+		CF1C1E6926F379CB001B2D1E /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C1E6826F379CB001B2D1E /* Exporter.swift */; };
+		CF1C1E7026F3820A001B2D1E /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C1E6F26F3820A001B2D1E /* music.mp3 */; };
+		DD6C806E8A028DCE2ECF83A5 /* Pods_DemoAVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F727D01EBC63FAE8A6F1230 /* Pods_DemoAVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F727D01EBC63FAE8A6F1230 /* Pods_DemoAVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758FF81F6C43434EBAE58BD9 /* Pods-DemoAVFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAVFoundation.debug.xcconfig"; path = "Target Support Files/Pods-DemoAVFoundation/Pods-DemoAVFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		CF1C1E2126F375B1001B2D1E /* DemoAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1C1E2426F375B1001B2D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF1C1E2626F375B1001B2D1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF1C1E2826F375B1001B2D1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF1C1E2B26F375B1001B2D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF1C1E2D26F375BB001B2D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1C1E3026F375BB001B2D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1C1E3226F375BB001B2D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1C1E4426F377A7001B2D1E /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		CF1C1E5A26F379AF001B2D1E /* Composing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composing.swift; sourceTree = "<group>"; };
+		CF1C1E5D26F379B7001B2D1E /* AffineTransformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransformations.swift; sourceTree = "<group>"; };
+		CF1C1E5F26F379BC001B2D1E /* ImageToVideoTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToVideoTransformer.swift; sourceTree = "<group>"; };
+		CF1C1E6226F379C0001B2D1E /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		CF1C1E6526F379C4001B2D1E /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		CF1C1E6826F379CB001B2D1E /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
+		CF1C1E6F26F3820A001B2D1E /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		D8A8C24B93A60B87D5B5C2FF /* Pods-DemoAVFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAVFoundation.release.xcconfig"; path = "Target Support Files/Pods-DemoAVFoundation/Pods-DemoAVFoundation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6C806E8A028DCE2ECF83A5 /* Pods_DemoAVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6789D99DF4E2CB97778584D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F727D01EBC63FAE8A6F1230 /* Pods_DemoAVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A69F5E4178AC944DC845EA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758FF81F6C43434EBAE58BD9 /* Pods-DemoAVFoundation.debug.xcconfig */,
+				D8A8C24B93A60B87D5B5C2FF /* Pods-DemoAVFoundation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF1C1E1826F375B1001B2D1E = {
 			isa = PBXGroup;
 			children = (
 				CF1C1E2326F375B1001B2D1E /* DemoAVFoundation */,
 				CF1C1E2226F375B1001B2D1E /* Products */,
+				7A69F5E4178AC944DC845EA3 /* Pods */,
+				6789D99DF4E2CB97778584D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +94,16 @@
 		CF1C1E2326F375B1001B2D1E /* DemoAVFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				CF1C1E4426F377A7001B2D1E /* CustomViewController.swift */,
+				CF1C1E5A26F379AF001B2D1E /* Composing.swift */,
+				CF1C1E5D26F379B7001B2D1E /* AffineTransformations.swift */,
+				CF1C1E5F26F379BC001B2D1E /* ImageToVideoTransformer.swift */,
+				CF1C1E6226F379C0001B2D1E /* MediaItem.swift */,
+				CF1C1E6526F379C4001B2D1E /* Timeline.swift */,
+				CF1C1E6826F379CB001B2D1E /* Exporter.swift */,
 				CF1C1E2426F375B1001B2D1E /* AppDelegate.swift */,
+				CF1C1E6F26F3820A001B2D1E /* music.mp3 */,
 				CF1C1E2626F375B1001B2D1E /* SceneDelegate.swift */,
-				CF1C1E2826F375B1001B2D1E /* ViewController.swift */,
 				CF1C1E2A26F375B1001B2D1E /* Main.storyboard */,
 				CF1C1E2D26F375BB001B2D1E /* Assets.xcassets */,
 				CF1C1E2F26F375BB001B2D1E /* LaunchScreen.storyboard */,
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1C1E3526F375BB001B2D1E /* Build configuration list for PBXNativeTarget "DemoAVFoundation" */;
 			buildPhases = (
+				7B390925BD12ACF77A67B4F2 /* [CP] Check Pods Manifest.lock */,
 				CF1C1E1D26F375B1001B2D1E /* Sources */,
 				CF1C1E1E26F375B1001B2D1E /* Frameworks */,
 				CF1C1E1F26F375B1001B2D1E /* Resources */,
+				CD963DC3305CB01AECA62264 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1C1E7026F3820A001B2D1E /* music.mp3 in Resources */,
 				CF1C1E3126F375BB001B2D1E /* LaunchScreen.storyboard in Resources */,
 				CF1C1E2E26F375BB001B2D1E /* Assets.xcassets in Resources */,
 				CF1C1E2C26F375B1001B2D1E /* Main.storyboard in Resources */,
@@ -132,14 +180,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B390925BD12ACF77A67B4F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoAVFoundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD963DC3305CB01AECA62264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoAVFoundation/Pods-DemoAVFoundation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoAVFoundation/Pods-DemoAVFoundation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoAVFoundation/Pods-DemoAVFoundation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF1C1E1D26F375B1001B2D1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1C1E2926F375B1001B2D1E /* ViewController.swift in Sources */,
+				CF1C1E6626F379C4001B2D1E /* Timeline.swift in Sources */,
+				CF1C1E6926F379CB001B2D1E /* Exporter.swift in Sources */,
+				CF1C1E6326F379C0001B2D1E /* MediaItem.swift in Sources */,
 				CF1C1E2526F375B1001B2D1E /* AppDelegate.swift in Sources */,
+				CF1C1E5B26F379AF001B2D1E /* Composing.swift in Sources */,
+				CF1C1E6026F379BC001B2D1E /* ImageToVideoTransformer.swift in Sources */,
 				CF1C1E2726F375B1001B2D1E /* SceneDelegate.swift in Sources */,
+				CF1C1E4926F377A8001B2D1E /* CustomViewController.swift in Sources */,
+				CF1C1E5E26F379B7001B2D1E /* AffineTransformations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +379,7 @@
 		};
 		CF1C1E3626F375BB001B2D1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758FF81F6C43434EBAE58BD9 /* Pods-DemoAVFoundation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +398,7 @@
 		};
 		CF1C1E3726F375BB001B2D1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A8C24B93A60B87D5B5C2FF /* Pods-DemoAVFoundation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
